@@ -7,3 +7,9 @@ Ideas for the new project
    where should they be near and when at each hour of the day? (For a certain city)
    
 3. Using the Billboard database with the features of the top songs over the years and using this to predict a song's popularity.
+
+4. Predicting obesity from various factors (like breastfeeding, which seems unusual and interesting). Data available
+  here: https://catalog.data.gov/dataset/nutrition-physical-activity-and-obesity-behavioral-risk-factor-surveillance-system
+
+5. Finding out which indicators are the most significant when it comes to predicting tornado or severe storm occurrance. Data available
+  here: https://catalog.data.gov/dataset/storm-prediction-report
