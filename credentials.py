@@ -1,5 +1,6 @@
-#This is a file that holds confidential information about a Twitter user and their authentication tokens. Please do not read further if you are not authorized.
-  
+# This is an example of the file that holds confidential information about a Twitter user and their authentication tokens.
+# These variables are filled on our local machines.
+
 CONSUMER_KEY = ' '
 CONSUMER_SECRET = ' '
 ACCESS_TOKEN = ' '
