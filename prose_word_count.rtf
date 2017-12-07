@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf100
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww25400\viewh13620\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ### Introduction\
+Our project is surrounding the Twitter accounts of the Black Lives Matter Movement (@Blklivesmatter) and Donald Trump (@realDonaldTrump). We focused on the sentiment of the tweets of each account versus each individual tweet's replies. Sentiment analysis is a way of classifying a text as positive, negative, or neutral using text analysis. <i>FIX THAT SENTENCE</i>. However, because of the complex and sarcastic components of the English language, sentiment analysis is not a sole way of categorizing something as positive or negative. Because of this, we needed other factors to tell the sentiment of a reply. In order to do this, we created a feature vector and used that to classify the sentiment of the reply and used SVM machine learning in order to have the machine classify it for us. <i>FIX THAT SENTENCE</i>\
+\
+The features in our feature vector are as follows. \
+\
+Our first feature was the original sentiment analysis, because although it is not reliably conclusive on its own, it can tell us something about the mood of the sentence. \
+\
+The second feature we worked on focused on the user who posted the reply to the specific tweet. We checked whether or not the user was following other accounts that aligned with Donald Trump's or BLM's views, including politicians of either party.\
+\
+<b> Fix the two sentences above and continue adding features when we have them. Include issues we ran into and problems we faced/solutions we came up with as well? </b>\
+\
+### Accessing Twitter's Data\
+\
+In order to access Twitter's API, we had to create applications and personally get authentication tokens. Even though we are all allowed access to Twitter, we cannot give out these confidential tokens on this public notebook. In order to get past this hurdle, we created a function that would pull from our own files on our own machines for these tokens. In the cell below is a copy of credentials.py, without the confidential information. \
+\
+### Collecting the Data in a Functional Way\
+\
+Now we must start by getting the replies of each account, linked to the tweet they are replying to. We use the tweepy and collections libraries to do this. \
+\
+In order to get around Twitter's rule of no more than 15 queries in 15 minutes and to efficiently pull from a specific and unchanging dataset, we put the data of each account and their replies into a csv starting from (<b> DATE TIME OF DATA PULLED INTO CSV</b>). Because we only needed certain data from each tweet, we only added (<b> COLUMNS THAT WE PULLED FROM DATAFRAME INTO CSV</b>).\
+\
+#### Sentiment Analysis\
+\
+As explained before, sentiment analysis is a basic way of analyzing a text to tell if it has a positive, negative, or neutral sentiment. NLTK is the library we will use to do this section. }
